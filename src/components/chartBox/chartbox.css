@@ -1,0 +1,34 @@
+.chartBox{
+    display: flex;
+    height: 100%;
+
+    @media (max-width: 768px) {
+        flex-direction: column; /* Switch to a column layout on small screens */
+      }
+    
+    .boxInfo{
+        flex: 3;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: space-between; */
+        color: black;
+
+        .title{
+            display: flex;
+            align-items: center;
+            /* gap: 5px; */
+        }
+    }
+
+    .chartInfo{
+        flex:2 ;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        .chart{
+            width: 100%;
+            height: 100%;
+        }
+    }
+}

@@ -1,0 +1,119 @@
+/* Common styles for the navbar */
+.navbar {
+    /* position: fixed; */
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    /* background-color: #333; */
+    color: white;
+    z-index: 1000;
+  }
+  
+  /* Styles for the logo section */
+  
+  
+  .logo span {
+    white-space: nowrap;
+    font-weight: 600;
+  }
+  
+  /* Styles for the search icon */
+  .icon-search {
+    size: 30px;
+    border-radius: 8px;
+    border: 0.25px solid black;
+    padding: 3px;
+  }
+  
+  /* Styles for other icons */
+  .icon, .iconb {
+    max-height: 25px;
+    border-radius: 8px;
+    border: 0;
+    align-items: center;
+    box-shadow: 3px;
+  }
+  
+  .iconb {
+    color: white;
+    max-height: 40px;
+    border-radius:2px;
+    background-color: red;
+    padding: 4px;
+  }
+  
+  /* Styles for the icons section */
+  .icons {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+  }
+  
+  /* Styles for notification icon */
+  .notification img {
+    height: 20px;
+    width: 20px;
+  }
+  
+  .notification span {
+    background-color: red;
+    color: white;
+    width: 15px;
+    height: 15px;
+    font-size: 15px;
+    border-radius: 50%;
+    position: absolute;
+    top: 10px;
+    right: 175px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Styles for user section */
+  .user {
+    gap: 10px;
+    text-align: center;
+  }
+  
+  .user span {
+    font-weight: 600;
+  }
+  
+  .user img {
+    width: 22px;
+    height: 22px;
+    border-radius: 5%;
+    object-fit: cover;
+    padding-left: 2px;
+  }
+  
+  /* Styles for the main content and sidebar */
+  .main-content {
+    margin-top: 60px; /* Adjust the margin-top value to match the height of your navbar */
+  }
+  
+  .sidebar {
+    width: 250px;
+    background-color: #f4f4f4;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+  }
+  
+  /* Media query for responsive design */
+  @media (max-width: 768px) {
+    .logo {
+      padding-left: 10px; /* Adjust the padding as needed for smaller screens */
+    }
+  
+    .icons {
+      gap: 10px;
+    }
+  }
+  

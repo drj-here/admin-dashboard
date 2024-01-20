@@ -1,0 +1,47 @@
+.menu{
+
+    background-color: rgb(83, 54, 111);
+    padding-left: 0;
+    margin-left: 0;
+    height: 100%;
+    .footer{
+        color: white;
+        margin-top: 100px;
+        .title{
+            display: flex;
+            align-items: center;
+            padding:1px;
+            font-size: 16px;
+            white-space: nowrap;
+        }
+        .copyright{
+            font-weight: 300;
+        }
+    }
+    .admin{
+        font-size: large;
+        font-weight: 700;
+        color: white;
+        padding-left: 19px;
+    }
+    .item{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .ListItem{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        padding: 10px;
+        border-radius: 5px;
+        color:rgb(224, 120, 205) ;
+        &:hover{
+            background-color: white;
+            color: black;
+        }
+
+        
+    }
+}

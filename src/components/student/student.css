@@ -1,0 +1,23 @@
+.stats {
+    h1 {
+      font-size: 25px;
+      padding: 5px;
+    }
+    .list {
+      .listItem {
+        .buttonD {
+          padding: 4px;
+          border-radius: 3%;
+          color: goldenrod;
+      background-color: rgba(189, 189, 3, 0.103);
+        }
+        .buttonA {
+          padding: 4px;
+          border-radius: 3%;
+          color: green;
+      background-color: rgba(0, 128, 0, 0.151);
+        }
+      }
+    }
+  }
+  
